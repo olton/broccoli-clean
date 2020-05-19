@@ -1,0 +1,32 @@
+{
+  "name": "broccoli-clean",
+  "version": "0.0.1",
+  "description": "A broccoli plugin to clean specified directory(es)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "clean directory",
+    "clean dir"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olton/broccoli-clean.git"
+  },
+  "author": "Sergey Pimenov",
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli-test-helper": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  },
+  "dependencies": {
+    "broccoli-plugin": "^4.0.3",
+    "fs-extra": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=8.0"
+  }
+}
