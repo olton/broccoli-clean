@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A broccoli plugin to clean specified directory(es)",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "mocha tests/"
   },
