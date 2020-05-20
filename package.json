@@ -1,6 +1,6 @@
 {
   "name": "broccoli-clean",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A broccoli plugin to clean specified directory(es)",
   "main": "index.js",
   "files": [
