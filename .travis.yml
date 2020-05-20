@@ -7,6 +7,9 @@ node_js:
 
 cache:
   yarn: true
+  directories:
+    - node_modules
 
-matrix:
-  fast_finish: true
+script:
+  - yarn
+  - yarn test
